@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F66A09B2225364B0020DCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66A09A2225364B0020DCDD /* AppDelegate.swift */; };
+		5F66A09D2225364B0020DCDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66A09C2225364B0020DCDD /* ViewController.swift */; };
+		5F66A0A02225364B0020DCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F66A09E2225364B0020DCDD /* Main.storyboard */; };
+		5F66A0A22225364C0020DCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F66A0A12225364C0020DCDD /* Assets.xcassets */; };
+		5F66A0A52225364C0020DCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F66A0A32225364C0020DCDD /* LaunchScreen.storyboard */; };
+		5F66A0B02225364C0020DCDD /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66A0AF2225364C0020DCDD /* ____Tests.swift */; };
+		5F66A0BB2225364C0020DCDD /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66A0BA2225364C0020DCDD /* ____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F66A0AC2225364C0020DCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F66A08F2225364B0020DCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F66A0962225364B0020DCDD;
+			remoteInfo = "斗鱼直播";
+		};
+		5F66A0B72225364C0020DCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F66A08F2225364B0020DCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F66A0962225364B0020DCDD;
+			remoteInfo = "斗鱼直播";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F66A0972225364B0020DCDD /* 斗鱼直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F66A09A2225364B0020DCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F66A09C2225364B0020DCDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F66A09F2225364B0020DCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F66A0A12225364C0020DCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F66A0A42225364C0020DCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F66A0A62225364C0020DCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F66A0AB2225364C0020DCDD /* 斗鱼直播Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼直播Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F66A0AF2225364C0020DCDD /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		5F66A0B12225364C0020DCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F66A0B62225364C0020DCDD /* 斗鱼直播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "斗鱼直播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F66A0BA2225364C0020DCDD /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		5F66A0BC2225364C0020DCDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F66A0942225364B0020DCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F66A0A82225364C0020DCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F66A0B32225364C0020DCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F66A08E2225364B0020DCDD = {
+			isa = PBXGroup;
+			children = (
+				5F66A0992225364B0020DCDD /* 斗鱼直播 */,
+				5F66A0AE2225364C0020DCDD /* 斗鱼直播Tests */,
+				5F66A0B92225364C0020DCDD /* 斗鱼直播UITests */,
+				5F66A0982225364B0020DCDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F66A0982225364B0020DCDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F66A0972225364B0020DCDD /* 斗鱼直播.app */,
+				5F66A0AB2225364C0020DCDD /* 斗鱼直播Tests.xctest */,
+				5F66A0B62225364C0020DCDD /* 斗鱼直播UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F66A0992225364B0020DCDD /* 斗鱼直播 */ = {
+			isa = PBXGroup;
+			children = (
+				5F66A09A2225364B0020DCDD /* AppDelegate.swift */,
+				5F66A09C2225364B0020DCDD /* ViewController.swift */,
+				5F66A09E2225364B0020DCDD /* Main.storyboard */,
+				5F66A0A12225364C0020DCDD /* Assets.xcassets */,
+				5F66A0A32225364C0020DCDD /* LaunchScreen.storyboard */,
+				5F66A0A62225364C0020DCDD /* Info.plist */,
+			);
+			path = "斗鱼直播";
+			sourceTree = "<group>";
+		};
+		5F66A0AE2225364C0020DCDD /* 斗鱼直播Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5F66A0AF2225364C0020DCDD /* ____Tests.swift */,
+				5F66A0B12225364C0020DCDD /* Info.plist */,
+			);
+			path = "斗鱼直播Tests";
+			sourceTree = "<group>";
+		};
+		5F66A0B92225364C0020DCDD /* 斗鱼直播UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F66A0BA2225364C0020DCDD /* ____UITests.swift */,
+				5F66A0BC2225364C0020DCDD /* Info.plist */,
+			);
+			path = "斗鱼直播UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F66A0962225364B0020DCDD /* 斗鱼直播 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F66A0BF2225364C0020DCDD /* Build configuration list for PBXNativeTarget "斗鱼直播" */;
+			buildPhases = (
+				5F66A0932225364B0020DCDD /* Sources */,
+				5F66A0942225364B0020DCDD /* Frameworks */,
+				5F66A0952225364B0020DCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "斗鱼直播";
+			productName = "斗鱼直播";
+			productReference = 5F66A0972225364B0020DCDD /* 斗鱼直播.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F66A0AA2225364C0020DCDD /* 斗鱼直播Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F66A0C22225364C0020DCDD /* Build configuration list for PBXNativeTarget "斗鱼直播Tests" */;
+			buildPhases = (
+				5F66A0A72225364C0020DCDD /* Sources */,
+				5F66A0A82225364C0020DCDD /* Frameworks */,
+				5F66A0A92225364C0020DCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F66A0AD2225364C0020DCDD /* PBXTargetDependency */,
+			);
+			name = "斗鱼直播Tests";
+			productName = "斗鱼直播Tests";
+			productReference = 5F66A0AB2225364C0020DCDD /* 斗鱼直播Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F66A0B52225364C0020DCDD /* 斗鱼直播UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F66A0C52225364C0020DCDD /* Build configuration list for PBXNativeTarget "斗鱼直播UITests" */;
+			buildPhases = (
+				5F66A0B22225364C0020DCDD /* Sources */,
+				5F66A0B32225364C0020DCDD /* Frameworks */,
+				5F66A0B42225364C0020DCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F66A0B82225364C0020DCDD /* PBXTargetDependency */,
+			);
+			name = "斗鱼直播UITests";
+			productName = "斗鱼直播UITests";
+			productReference = 5F66A0B62225364C0020DCDD /* 斗鱼直播UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F66A08F2225364B0020DCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Youzen;
+				TargetAttributes = {
+					5F66A0962225364B0020DCDD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5F66A0AA2225364C0020DCDD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5F66A0962225364B0020DCDD;
+					};
+					5F66A0B52225364C0020DCDD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5F66A0962225364B0020DCDD;
+					};
+				};
+			};
+			buildConfigurationList = 5F66A0922225364B0020DCDD /* Build configuration list for PBXProject "斗鱼直播" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F66A08E2225364B0020DCDD;
+			productRefGroup = 5F66A0982225364B0020DCDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F66A0962225364B0020DCDD /* 斗鱼直播 */,
+				5F66A0AA2225364C0020DCDD /* 斗鱼直播Tests */,
+				5F66A0B52225364C0020DCDD /* 斗鱼直播UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F66A0952225364B0020DCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F66A0A52225364C0020DCDD /* LaunchScreen.storyboard in Resources */,
+				5F66A0A22225364C0020DCDD /* Assets.xcassets in Resources */,
+				5F66A0A02225364B0020DCDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F66A0A92225364C0020DCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F66A0B42225364C0020DCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F66A0932225364B0020DCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F66A09D2225364B0020DCDD /* ViewController.swift in Sources */,
+				5F66A09B2225364B0020DCDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F66A0A72225364C0020DCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F66A0B02225364C0020DCDD /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F66A0B22225364C0020DCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F66A0BB2225364C0020DCDD /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F66A0AD2225364C0020DCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F66A0962225364B0020DCDD /* 斗鱼直播 */;
+			targetProxy = 5F66A0AC2225364C0020DCDD /* PBXContainerItemProxy */;
+		};
+		5F66A0B82225364C0020DCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F66A0962225364B0020DCDD /* 斗鱼直播 */;
+			targetProxy = 5F66A0B72225364C0020DCDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F66A09E2225364B0020DCDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F66A09F2225364B0020DCDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F66A0A32225364C0020DCDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F66A0A42225364C0020DCDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F66A0BD2225364C0020DCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F66A0BE2225364C0020DCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F66A0C02225364C0020DCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "斗鱼直播/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuzhen.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F66A0C12225364C0020DCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "斗鱼直播/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuzhen.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F66A0C32225364C0020DCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "斗鱼直播Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuzhen.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/斗鱼直播.app/斗鱼直播";
+			};
+			name = Debug;
+		};
+		5F66A0C42225364C0020DCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "斗鱼直播Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuzhen.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/斗鱼直播.app/斗鱼直播";
+			};
+			name = Release;
+		};
+		5F66A0C62225364C0020DCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "斗鱼直播UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuzhen.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "斗鱼直播";
+			};
+			name = Debug;
+		};
+		5F66A0C72225364C0020DCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "斗鱼直播UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Yuzhen.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "斗鱼直播";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F66A0922225364B0020DCDD /* Build configuration list for PBXProject "斗鱼直播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F66A0BD2225364C0020DCDD /* Debug */,
+				5F66A0BE2225364C0020DCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F66A0BF2225364C0020DCDD /* Build configuration list for PBXNativeTarget "斗鱼直播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F66A0C02225364C0020DCDD /* Debug */,
+				5F66A0C12225364C0020DCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F66A0C22225364C0020DCDD /* Build configuration list for PBXNativeTarget "斗鱼直播Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F66A0C32225364C0020DCDD /* Debug */,
+				5F66A0C42225364C0020DCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F66A0C52225364C0020DCDD /* Build configuration list for PBXNativeTarget "斗鱼直播UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F66A0C62225364C0020DCDD /* Debug */,
+				5F66A0C72225364C0020DCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F66A08F2225364B0020DCDD /* Project object */;
+}
