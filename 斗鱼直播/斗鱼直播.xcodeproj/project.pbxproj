@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5F66A09B2225364B0020DCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66A09A2225364B0020DCDD /* AppDelegate.swift */; };
-		5F66A09D2225364B0020DCDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F66A09C2225364B0020DCDD /* ViewController.swift */; };
 		5F66A0A02225364B0020DCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F66A09E2225364B0020DCDD /* Main.storyboard */; };
 		5F66A0A22225364C0020DCDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F66A0A12225364C0020DCDD /* Assets.xcassets */; };
 		5F66A0A52225364C0020DCDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F66A0A32225364C0020DCDD /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		5F66A0972225364B0020DCDD /* 斗鱼直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F66A09A2225364B0020DCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F66A09C2225364B0020DCDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F66A09F2225364B0020DCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F66A0A12225364C0020DCDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F66A0A42225364C0020DCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,8 @@
 		5F66A0992225364B0020DCDD /* 斗鱼直播 */ = {
 			isa = PBXGroup;
 			children = (
+				5F66A0C922253AF50020DCDD /* classes */,
 				5F66A09A2225364B0020DCDD /* AppDelegate.swift */,
-				5F66A09C2225364B0020DCDD /* ViewController.swift */,
 				5F66A09E2225364B0020DCDD /* Main.storyboard */,
 				5F66A0A12225364C0020DCDD /* Assets.xcassets */,
 				5F66A0A32225364C0020DCDD /* LaunchScreen.storyboard */,
@@ -124,6 +122,64 @@
 			);
 			path = "斗鱼直播UITests";
 			sourceTree = "<group>";
+		};
+		5F66A0C922253AF50020DCDD /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F66A0D222253B450020DCDD /* Main */,
+				5F66A0D022253B220020DCDD /* Home */,
+				5F66A0CD22253AF50020DCDD /* Live */,
+				5F66A0CB22253AF50020DCDD /* Follow */,
+				5F66A0CC22253AF50020DCDD /* Profile */,
+				5F66A0D122253B410020DCDD /* Tools */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		5F66A0CB22253AF50020DCDD /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		5F66A0CC22253AF50020DCDD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5F66A0CD22253AF50020DCDD /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		5F66A0D022253B220020DCDD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Home;
+			path = "斗鱼直播/classes/Home";
+			sourceTree = SOURCE_ROOT;
+		};
+		5F66A0D122253B410020DCDD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			path = "斗鱼直播/classes/Tools";
+			sourceTree = SOURCE_ROOT;
+		};
+		5F66A0D222253B450020DCDD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			path = "斗鱼直播/classes/Main";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -256,7 +312,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F66A09D2225364B0020DCDD /* ViewController.swift in Sources */,
 				5F66A09B2225364B0020DCDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
